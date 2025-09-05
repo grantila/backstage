@@ -81,12 +81,12 @@ const _default: OverridableFrontendPlugin<
         direction?: Direction | undefined;
         zoom?: 'disabled' | 'enabled' | 'enable-on-click' | undefined;
         title?: string | undefined;
-        relations?: string[] | undefined;
         maxDepth?: number | undefined;
+        relations?: string[] | undefined;
         kinds?: string[] | undefined;
-        unidirectional?: boolean | undefined;
         mergeRelations?: boolean | undefined;
         relationPairs?: [string, string][] | undefined;
+        unidirectional?: boolean | undefined;
       } & {
         filter?: EntityPredicate | undefined;
         type?: 'content' | 'summary' | 'info' | undefined;
@@ -153,13 +153,13 @@ const _default: OverridableFrontendPlugin<
         curve?: 'curveStepBefore' | 'curveMonotoneX' | undefined;
         direction?: Direction | undefined;
         zoom?: 'disabled' | 'enabled' | 'enable-on-click' | undefined;
+        maxDepth?: number | undefined;
         relations?: string[] | undefined;
         rootEntityRefs?: string[] | undefined;
-        maxDepth?: number | undefined;
         kinds?: string[] | undefined;
-        unidirectional?: boolean | undefined;
         mergeRelations?: boolean | undefined;
         relationPairs?: [string, string][] | undefined;
+        unidirectional?: boolean | undefined;
         selectedRelations?: string[] | undefined;
         selectedKinds?: string[] | undefined;
         showFilters?: boolean | undefined;
